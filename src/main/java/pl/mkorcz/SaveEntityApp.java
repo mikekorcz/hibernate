@@ -23,7 +23,7 @@ public class SaveEntityApp {
 
         session.beginTransaction();
         session.save(employee);
-        session.getTransaction().commit();
+        session.getTransaction().   commit();
         factory.close();
     }
 }
